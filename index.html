@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cutlist Pro</title>
+</head>
+<body>
+    <nav id="application-nav">
+
+    </nav>
+
+    <form id="door-form">
+        <!-- input -->
+        <select id="door-type">
+            <option value="FM">French Miter</option>
+        </select>
+        <input type="checkbox" name="prehung" id="prehung" class="jambs">
+
+        <!-- French Miter Inputs -->
+        <input id="fm-door-width" type="number" class="fmdoor">
+        <input id="fm-door-height" type="number" class="fmdoor">
+        <input id="fm-door-thickness" type="number" class="fmdoor">
+        <input id="fm-left-stile-width" type="number" class="fmdoor">
+        <input id="fm-right-stile-width" type="number" class="fmdoor">
+        <input id="fm-molding-width" type="number" class="fmdoor">
+
+        <!-- Shaker Inputs -->
+        <input id="shaker-door-width" type="number" class="shaker">
+        <input id="shaker-door-height" type="number" class="shaker">
+        <input id="shaker-door-thickness" type="number" class="shaker">
+        <input id="shaker-left-stile-width" type="number" class="shaker">
+        <input id="shaker-right-stile-width" type="number" class="shaker">
+
+        <!-- jamb Inputs -->
+        <input type="radio" id="int" value="int" name="int/ext" class="jambs">
+        <input type="radio" id="ext" value="ext" name="int/ext" class="jambs">
+        <input type="number" name="jambdepth" id="jambdepth" class="jambs">
+        <input type="checkbox" name="threshold" id="threshold" class="jambs">
+        <input type="submit" value="submit">
+    </form>
+    
+
+    <script src="./Cutlist.js"></script>
+</body>
+</html>
